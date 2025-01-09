@@ -1,0 +1,179 @@
+@media(max-width:1400px) {
+.intro{
+    height: 500px;
+}
+}
+@media(max-width:1140px) {
+    .nike_box{
+        flex-direction: column;
+        max-width: 540px;
+       margin-left: auto;
+       margin-right: auto;
+       
+    }
+    .intro{
+        height: 450px;
+    }
+}
+@media(max-width:900px) {
+    .intro{
+        height: 400px;
+    }
+    .menu{
+        display: block;
+    }
+    .nav{
+        padding: 15px 0;
+    }
+    .nav_list{
+        position: fixed;
+        flex-direction: column;
+        background-color: #544294;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        padding: 40px;
+        text-align: center;
+        transform: translateX(100%);
+        transition: 0.5s;
+        z-index: 99;
+    }
+    .nav_link{
+        padding: 10px;
+    }
+    .close{
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .header{
+        position: relative;
+        overflow: hidden;
+    }
+    .menu:focus~.nav_list{
+        transform: translate(0);
+    }
+    .footer .container{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer_info{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer_list{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nike_left img{
+        width: 100%;
+    }
+}
+@media(max-width:700px) {
+    .intro{
+        height: 350px;
+        gap: 10px;
+    }
+    .nav_logo img{
+        width: 80px;
+    }
+    .nav{
+        padding: 10px 0;
+    }
+    .intro_title{
+        font-size: 45px;
+        line-height: 100%;
+    }
+    .footer_form{
+        width: 320px;
+    }
+}
+@media(max-width:570px) {
+    .nike_right{
+        flex-wrap: nowrap;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    .nike_card{
+        flex-shrink: 0;
+    }
+    .nike_left{
+        text-align: center;
+    }
+    .nike_title{
+        margin: 8px 0;
+        font-size: 20px;
+        line-height: 100%;
+    }
+    .nike_text{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .nike_card_text{
+        font-size: 15px;
+    }
+    .nike_box{
+        gap: 15px;
+        transform: translateY(-15px);
+    }
+    .nike_right{
+        gap: 15px;
+    }
+    .footer{
+        padding: 20px 0;
+    }
+    .nike_card_title{
+        font-size: 20px;
+    }
+}
+@media(max-width:500px) {
+    .intro{
+        height: 300px;
+        gap: 5px;
+    }
+    .intro_title{
+        font-size: 37px;
+    }
+    .intro_text{
+        font-size: 16px;
+    }
+    .nike_left{
+        padding: 10px;
+    }
+    .nike_title,
+    .nike_card_title{
+        font-size: 18px;
+    }
+}
+@media(max-width:400px) {
+    .nike_title{
+        font-size: 17px;
+    }
+    .nike_card{
+        width: 230px;
+    }
+    .nike_card img{
+        width: 70px;
+    }
+    .footer_form{
+        width: 270px;
+    }
+    .footer_input,.footer_textarea,.footer_btn{
+        font-size: 15px;
+        padding: 7px;
+    }
+    .footer_textarea{
+        height: 70px;
+    }
+    .nike_text{
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .intro{
+        height: 250px;
+    }
+}
